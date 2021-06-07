@@ -9,6 +9,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="8. Testing\0. Script\Extension_Director_Of_Programming_Chapter_12_2_Page_2_ConversionRequest_Handler_1_0.tsx" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CurlThin" Version="0.0.7" />
 		<PackageReference Include="Hanssens.Net.Extensions" Version="2.1.1" />
 		<PackageReference Include="LocalStorage" Version="2.1.0" />
@@ -21,7 +25,9 @@
 		<Folder Include="6. State\11\Automate Manual Task\1\Risk Management\Repository\" />
 		<Folder Include="6. State\2\Generate Brand Trust\3\Social Media\Repository\1\1_0\" />
 		<Folder Include="8. Testing\4. Experience\" />
-		<Folder Include="8. Testing\8. Testing\0. Script\Results\Extensions\12\3\Web Development\Report\0\1_0\" />
+		<Folder Include="8. Testing\8. Testing\0. Script\Inputs\Extensions\12\3\Web Development\TestData\0\1_0\" />
+		<Folder Include="8. Testing\8. Testing\0. Script\Outputs\Extensions\12\2\Programming\Report\2\1_0\" />
+		<Folder Include="8. Testing\8. Testing\0. Script\Outputs\Extensions\12\3\Web Development\Report\0\1_0\" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -35,6 +41,10 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <TypeScriptCompile Include="8. Testing\0. Script\Extension_Director_Of_Programming_Chapter_12_2_Page_2_ConversionRequest_Handler_1_0.tsx" />
 	</ItemGroup>
 
 </Project>

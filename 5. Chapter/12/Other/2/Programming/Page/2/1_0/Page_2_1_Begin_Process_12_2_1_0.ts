@@ -692,7 +692,7 @@ export namespace BaseDI.Community.Chapter.Page.Programming_2
 
             //#region IDEAL CASE - USE baseDI dataset
 
-            return storedOutputResponseData; 
+            //return storedOutputResponseData; 
 
             //#endregion
 

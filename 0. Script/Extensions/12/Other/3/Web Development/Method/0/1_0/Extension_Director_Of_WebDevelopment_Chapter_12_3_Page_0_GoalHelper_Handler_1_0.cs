@@ -42,6 +42,11 @@ namespace BaseDI.Community.Script.Web_Development.Extensions_0
     {
         #region HTML MANAGEMENT
 
+        public static Task<dynamic> Step_0_0_Framework_Convert_HtmlToJSON_1_0(SingleParmPoco_12_2_1_0 parameterInputs)
+        {
+            throw new NotImplementedException();
+        }
+
         private static async Task<dynamic> Step_0_0_Framework_Store_HtmlAttributesToArray_1_0(SingleParmPoco_12_2_1_0 parameterInputs)
         {
             #region 1. INPUTS
