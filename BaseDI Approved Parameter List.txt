@@ -1,0 +1,112 @@
+=================================================================================================
+StartUp.cs / ts
+=================================================================================================
+//CONTROL baseDI action - Action
+parameterControlRequestClientOrServer
+
+parameterInputRequestActionName
+parameterInputRequestName
+parameterInputRequestNameDataCacheKey
+
+parameterProcessRequestCallBack
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+
+parameterOutputResponseControlID
+
+NULLABLE: parameterProcessRequestDataStorylineDetails
+NULLABLE: parameterProcessRequestDataStorylineDetails_Parameters
+NULLABLE: parameterProcessRequestDataStorylineDetails_CallBack
+
+=================================================================================================
+Extension_Studio_Automation_Programming_Chapter_12_2_Page_0_ControlMasterLeader_Handler_1_0.cs / ts
+=================================================================================================
+//CONVERT json dataset to filetered version 1 - Step_X_X_Framework_Convert_JsonDataSetToNodes_1_0
+//CONVERT json dataset to filetered version 2 - Step_X_X_Framework_Convert_JsonDataSetToNodes_2_0
+parameterProcessRequestSettings
+parameterProcessRequestTracker
+parameterProcessRequestDataToFilter
+parameterProcessRequestDataToFilterKey
+parameterProcessRequestDataToFilterValue
+parameterOutputResponseAsArray
+
+
+//OUTPUT observation item - Step_X_X_Framework_Output_JsonObservationNode_1_0
+parameterProcessRequest3WordDescription
+parameterInputRequestActionName
+parameterProcessRequestSettings
+parameterProcessRequestTracker
+parameterOutputResponseObservationFileName
+parameterOutputResponseObservationMethodName
+parameterOutputResponseObservationPresentationTemplate
+parameterOutputResponseObservationBusinessTemplate
+parameterOutputResponseObservationServiceTemplate
+parameterOutputResponseObservationSecurityTemplate
+parameterOutputResponseObservationDataTemplate
+
+=================================================================================================
+Extension_Director_Of_WebDevelopment_Chapter_12_3_Page_0_GoalHelper_Handler_1_0
+=================================================================================================
+
+//CONVERT json to html container - Step_1_0_Framework_Convert_HtmlContainerJsonToHtml_1_0
+parameterInputRequestHtmlContainerJSON
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
+
+//CONVERT json to html rows - Step_2_0_Framework_Convert_HtmlRowsJsonToHtml_1_0
+parameterInputRequestHtmlRowsJSON
+parameterOutputResponseHtmlContainerString
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
+
+//CONVERT json to html rows - Step_3_0_Framework_Convert_HtmlColumnsJsonToHtml_1_0
+parameterInputRequestHtmlColumnsJSON
+parameterOutputResponseHtmlRowString
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
+
+//CONVERT json to html columns - Step_4_0_Framework_Convert_HtmlContentJsonToHtml_1_0
+parameterInputRequestHtmlContentJSON
+parameterOutputResponseHtmlColumnString
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
+
+//CONVERT json to html inline css - Step_5_0_Framework_Convert_HtmlCssJSONToInlineStyles_1_0
+parameterInputRequestHtmlStylesJSON
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
+
+//CONVERT json to html inline scripts - Step_6_0_Framework_Convert_HtmlScriptsJSONToInlineScripts_1_0
+parameterInputRequestHtmlScriptsJSON
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
+
+//CONVERT json to html inline metadata - Step_7_0_Framework_Convert_HtmlMetaDataJSONToInlineMetaData_1_0
+parameterInputRequestHtmlMetaDataJSON
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
+
+//CONVERT json to html content - Step_8_0_Framework_Convert_HtmlStructureToString_1_0
+parameterInputRequestHtmlMetaData
+parameterInputRequestHtmlTitle
+parameterInputRequestHtmlScripts
+parameterInputRequestHtmlStyles
+parameterInputRequestHtmlBody
+parameterProcessRequestTracker
+parameterProcessRequestSettings
+parameterProcessRequestCentralizedStorer
+parameterProcessRequestDataStorylineDetails
